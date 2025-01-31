@@ -42,3 +42,9 @@ List attributes in shapefile
 ```bash
 ogrinfo -so -al Zumwalt2023.shp
 ```
+
+### redis
+
+monitor channel
+
+redis-cli SUBSCRIBE "trivial-tomahawk:climate"
